@@ -43,7 +43,7 @@ from keras.layers.core import Dense, Dropout, Activation
 from keras.layers.recurrent import LSTM, GRU
 from keras.layers import TimeDistributed, Embedding
 from keras.utils.generic_utils import Progbar
-import liir.nlp.preprocessing as P
+import utils.preprocessing as P
 
 
 def custom_accuracy(y_true, y_pred):
